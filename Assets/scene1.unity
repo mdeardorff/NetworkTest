@@ -461,7 +461,7 @@ Prefab:
     - target: {fileID: 114174664039540962, guid: 9604b0e34475c53448d0c084726d9f33,
         type: 2}
       propertyPath: m_LocalPlayerAuthority
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9604b0e34475c53448d0c084726d9f33, type: 2}

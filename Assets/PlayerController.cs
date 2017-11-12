@@ -25,6 +25,10 @@ public class PlayerController : NetworkBehaviour {
         nonPlayer = GameObject.FindGameObjectWithTag("np");
         rb = gameObject.GetComponent<Rigidbody>();
         rb2 = nonPlayer.GetComponent<Rigidbody>();
+        if(isLocalPlayer)
+        {
+            gameObject.GetComponent<MeshRenderer>().material.color = new Color(255, 0, 0);
+        }
     }
 	
 	// Update is called once per frame
